@@ -1,0 +1,14 @@
+.cropper-select{
+  width: var(--app-inline-box-wh);
+  height: var(--app-inline-box-wh);
+}
+.cropper-cover {
+  top: 0;
+  left: 0;
+  width: var(--app-inline-box-wh);
+  height: var(--app-inline-box-wh);
+  background-color: #fff;
+  pointer-events:none;
+  background-color: #fff;
+  border: 1px solid var(--app-border-color);
+}

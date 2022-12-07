@@ -1,0 +1,110 @@
+/* app内用到的组件样式 */
+@import url('./app.scss');
+@import url('./module.scss');
+@import url('./plug.scss');
+.pop-max-width {
+	max-width: 400px;
+}
+.app-table-select-font {
+	margin: 0 20px;
+	font-size: var(--app-font-2);
+}
+
+.app-blue-card {
+	width: 420px;
+	height: 118px;
+	background-color: #fbfdff;
+}
+.app-card-item {
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.app-card-title {
+	font-size: var(--app-font-6);
+	color: var(--el-text-color-regular);
+	margin-bottom: var(--app-block-margin);
+}
+.app-card-desc {
+	font-size: var(--app-font-2);
+	color: var(--el-text-color-regular);
+}
+.app-select-right {
+	font-size: var(--app-font-2);
+	color: var(--el-text-color-regular);
+	white-space: nowrap;
+}
+.el-textarea__inner {
+	resize: none;
+}
+.app-pop-btn {
+	display: flex;
+	justify-content: center;
+	margin-top: var(--app-container-padding);
+}
+.app-add-btn {
+	display: flex;
+	align-items: center;
+}
+
+.app-el-tag {
+	width: var(--app-max-edit-width);
+	height: 100%;
+	justify-content: flex-start;
+	padding: var(--app-container-padding);
+}
+.app-el-tag-common {
+	width: 100%;
+	height: 100%;
+	justify-content: flex-start;
+	padding: var(--app-container-padding);
+}
+.app-switch-right-text {
+	margin-left: var(--app-block-margin-s);
+	color: var(--el-text-color-regular);
+}
+.app-input {
+	max-width: 600px;
+}
+.app-radio {
+	margin-top: -2px;
+}
+.app-page {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+.app-btn {
+	height: var(--app-btn-height);
+}
+.app-icon {
+	font-size: var(--app-font-4);
+	color: var(--app-icon-fill-grey);
+}
+.app-down-icon {
+	margin-left: var(--app-block-margin-xs);
+	font-size: var(--app-font-2);
+}
+.question-icon {
+	margin-left: var(--app-block-margin-xs);
+	font-size: var(--app-font-3);
+}
+
+/* table */
+/* app-select-table */
+.app-select-table .el-table__header-wrapper .el-table-column--selection .el-checkbox {
+	visibility: hidden !important;
+}
+
+/* dialog */
+.el-dialog {
+	--el-dialog-border-radius: var(--el-app-radius-container);
+}
+.el-dialog__header {
+	text-align: center;
+}
+.el-dialog__footer {
+	text-align: center;
+}

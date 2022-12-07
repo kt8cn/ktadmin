@@ -1,0 +1,29 @@
+/**
+ * 模拟数据qrDataListData
+ */
+export const materialPicDataList = [
+  {
+    id:1,
+    name:'yesyzheshimingziasdasaaaaaaaaaaa.png',
+    url:'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif?imageView2/1/w/80/h/80',
+    createTime:'2022-07-14'
+  },
+  { 
+    id:2,
+    name:'yesyzheshimingzi.png',
+    url:'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif?imageView2/1/w/80/h/80',
+    createTime:'2022-07-14'
+  },
+  { 
+    id:3,
+    name:'yesyzheshimingzi.png',
+    url:'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif?imageView2/1/w/80/h/80',
+    createTime:'2022-07-14'
+  },
+  { 
+    id:4,
+    name:'yesyzheshimingzi.png',
+    url:'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif?imageView2/1/w/80/h/80',
+    createTime:'2022-07-14'
+  },
+]
